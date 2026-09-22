@@ -28,5 +28,18 @@ div img {
 }
 
 .navigasi {
+ background-color: #aaa; 
+ padding: 10px;
+ text-align: center;
+ border-radius: 10px;
+}
+
+
+.navigasi a {
+    text-decoration: none;
     
+}
+.navigasi .aktif{
+    font-weight: bold;
+    color: #CD2E2E;
 }
