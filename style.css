@@ -1,6 +1,4 @@
 h1 {
-    
-    
     background-color: #772424;
     color: #fff;
 }
@@ -11,9 +9,10 @@ a {
 body {
  background-color: #DFFF6F
 }
+
 /* mengubah div menjadi tampilan kartu */
-div {
-   background-color: #aaa; 
+div.karu-profil {
+   background-color: #9E9E9E; 
    width: 280px;
    margin: 20px auto;
    padding: 20px;
@@ -22,19 +21,26 @@ div {
    text-align: center;
 }
 
-div img {
-    border-radius: 50%;
-    border: 4px solid #CD2E2E;
+div.kartu-profil {
+    background-color: #a0a0a0;
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
 }
 
+.kartu-profil img {
+    border-radius: 50%;
+    border: 4px solid #CD2E2E;
+
+}
 .navigasi {
- background-color: #aaa; 
- padding: 10px;
+ background-color: #81C784; 
+ padding: 7px;
  text-align: center;
  border-radius: 10px;
 }
-
-
 .navigasi a {
     text-decoration: none;
     
@@ -42,4 +48,33 @@ div img {
 .navigasi .aktif{
     font-weight: bold;
     color: #CD2;
+}
+
+div.kartu-kontak {
+    background-color: #fff ;
+    width: 80%;
+    /* rata tegah horizontal*/
+    margin: 0 auto;
+    padding: 10px;
+    /* teks rata tegah*/
+    border-radius:  20px;
+    text-align:  center;
+}
+.tombol-medsos {
+  /*agar tombaol melebar satu baris penuh*/
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px;
+  /* sudut tumpul*/
+  border-radius: 12px;
+}
+
+.Wa {
+    background-color: #2CE1C2;
+}
+
+.github {
+    background-color: #00D9FF;
 }
