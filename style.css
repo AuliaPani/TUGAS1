@@ -132,3 +132,45 @@ h1{
   font-weight: bold;
   font-family: Arial;
 }
+.kartu-biodata{
+  background-color: white !important;
+  border-radius: 25px !important;
+  border: 3px solid #ffb3d9 !important;
+  padding: 25px 15px !important;
+  margin-top: 15px !important;
+  display: flex !important;
+  flex-direction: column !important; /* INI KUNCI JADI ATAS-BAWAH */
+  align-items: center !important;
+  text-align: center !important;
+  box-shadow: 0px 4px 10px #ffcce6;
+}
+
+.kartu-biodata img{
+  width: 130px !important;
+  height: 130px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 4px solid #ff8ec7 !important;
+  margin-bottom: 15px !important;
+}
+
+.kartu-biodata .teks-biodata,
+.kartu-biodata h2, .kartu-biodata p{
+  text-align: center !important;
+}
+
+/* TOMBOL PINK BIAR MATCH SAMA PROFIL */
+.btn-pink{
+  background-color: #ff8ec7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-pink:hover{
+  background-color: #ff6eb5;
+}
