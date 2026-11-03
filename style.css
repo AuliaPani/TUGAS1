@@ -1,94 +1,56 @@
-h1 {
-    background-color: #772424;
-    color: #fff;
-}
-a {
-    color: #CD2E2E
-}
-
-body {
- background-color: #DFFF6F
-}
-
-/* mengubah div menjadi tampilan kartu */
-div.karu-profil {
-   background-color: #9E9E9E; 
-   width: 280px;
-   margin: 20px auto;
-   padding: 20px;
-   border-radius: 30px;
-   box-shadow: 0 4px 8px rgba(0,0,0.5);
-   text-align: center;
-}
-
-div.kartu-profil {
-    background-color: #a0a0a0;
-    width: 85%;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 30px;
-    text-align: center;
-}
-
-.kartu-profil img {
-    border-radius: 50%;
-    border: 4px solid #CD2E2E;
-
-}
-.navigasi {
- background-color: #81C784; 
- padding: 7px;
- text-align: center;
- border-radius: 10px;
-}
-.navigasi a {
-    text-decoration: none;
-    
-}
-.navigasi .aktif{
-    font-weight: bold;
-    color: #CD2;
-}
-
-div.kartu-kontak {
-    background-color: #fff ;
-    width: 80%;
-    /* rata tegah horizontal*/
-    margin: 0 auto;
-    padding: 10px;
-    /* teks rata tegah*/
-    border-radius:  20px;
-    text-align:  center;
-}
-.tombol-medsos {
-  /*agar tombaol melebar satu baris penuh*/
-  display: block;
+body{
+  background-color: #e1ff74;
+  margin: 0;
+  font-family: Arial;
   padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  margin: 8px;
-  /* sudut tumpul*/
+}
+
+.navigasi{
+  background-color: #86c07e;
+  padding: 8px;
   border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
 }
 
-.Wa {
-    background-color: #2CE1C2;
+.navigasi a{
+  text-decoration: none;
 }
 
-.github {
-    background-color: #00D9FF;
+h1{
+  background-color: #7a2b2b;
+  color: white;
+  padding: 6px 10px;
+  margin-top: 15px;
+  font-size: 20px;
 }
 
-.galeri-container{
-    text-align: center;
-    max-width: 100%;
-    margin: 0 auto;
+.kartu-profil{
+  background-color: #9e9e9e;
+  border-radius: 40px;
+  padding: 25px 15px;
+  text-align: center;
+  margin-top: 10px;
 }
 
-/* item galeri foto */
-.galeri.item {
-    width: 50%;
-    max-width: 150px;
-    display: inline-block;
-  margin: 10px;
+.kartu-profil img{
+  background-color: white;
+  border: 4px solid #c1272d;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.kartu-profil h2{
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.kartu-profil p{
+  margin: 5px;
+}
+
+button{
+  margin-top: 10px;
+  padding: 5px 10px;
 }
