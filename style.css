@@ -56,3 +56,79 @@ h1{
   object-fit: cover;
   border: none !important;
 }
+/* KONTAK AESTHETIC */
+.kartu-kontak{
+  background-color: white;
+  border-radius: 25px;
+  border: 3px solid #ffb3d9;
+  padding: 20px;
+  margin-top: 15px;
+  box-shadow: 0px 6px 15px #ffcce6;
+}
+
+.kartu-kontak h2{
+  text-align: center;
+  color: #ff4da6;
+  margin: 0;
+  font-size: 20px;
+  background: none;
+}
+
+.deskripsi{
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  margin: 10px 0 15px 0;
+}
+
+.tombol-sosmed{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-wa, .btn-github{
+  padding: 10px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-wa{
+  background-color: #ff80bf;
+}
+
+.btn-github{
+  background-color: #9e7bb5;
+}
+
+.form-aesthetic{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-aesthetic input{
+  padding: 12px;
+  border-radius: 15px;
+  border: 2px solid #ffd6ea;
+  background-color: #fff0f7;
+  font-family: Arial;
+}
+
+.form-aesthetic input::placeholder{
+  color: #ffb3d9;
+}
+
+.form-aesthetic button{
+  padding: 12px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ff80bf;
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+}
