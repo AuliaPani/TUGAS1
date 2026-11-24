@@ -179,3 +179,7 @@ button {
   display: block;
   margin: 10px auto;
 }
+
+#input-makanan {
+  width:2em;
+}

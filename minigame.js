@@ -3,8 +3,14 @@
 let porsi = 0
 
 function berimakan() {
-  // tambah porsi makan +1
-  porsi = porsi + 1
+// 1.ambil tekas dari input angka kotak teks
+let teksinput = document.getElementById('input-makanan').value 
+
+// 2.ubah string menjadi agka
+let jumblahmakanan = Number (teksinput)
+
+// 3.oprasi penjumblahan agka
+porsi = porsi + jumblahmakanan
   
 updateTampilan()
 
